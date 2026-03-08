@@ -1,0 +1,13 @@
+{
+  "name": "playwright-automation-framework",
+  "version": "1.0.0",
+  "description": "Playwright UI + API automation framework with fixtures and tagging",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "smoke": "playwright test --grep @smoke"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0"
+  }
+}
